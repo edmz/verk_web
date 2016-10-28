@@ -30,7 +30,7 @@ defmodule VerkWeb.Mixfile do
   defp elixirc_paths(_),     do: ["lib", "web"]
 
   defp deps do
-    [{:phoenix, "~> 1.1.6"},
+    [{:phoenix, "~> 1.2.0"},
      {:phoenix_html, "~> 2.3"},
      {:gettext, "~> 0.9"},
      {:verk, "~> 0.13"},
